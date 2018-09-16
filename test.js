@@ -12,7 +12,7 @@ describe('Solve quadratic equation', () => {
     const solutions = solveEquation('294 * x^2 - 141195558 * x - 1600964090384736');
     assert.deepEqual(solutions, [-2105744, 2586001]);
   });
-  
+
   it('3', () => {
     const solutions = solveEquation('-267 * x^2 + 296412186 * x + 4722715166392080');
     assert.deepEqual(solutions, [-3687112, 4797270]);
